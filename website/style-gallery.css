@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 150vh;
+    position: relative;
+    background-image: url('poze-web/pian.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.overlay-content {
+    margin: 150px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    margin-top: 150px;
+    gap: 80px; 
+    width: 1200px; 
+    height: 1000px; 
+}
+
+.grid-item {
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.footer {
+    margin-top: 350px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

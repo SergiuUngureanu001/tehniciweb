@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 150vh;
+    position: relative;
+    background-image: url('poze-web/pian.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.incadrare {
+    margin-top: 100px;
+}
+
+.header {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #003300; 
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.header .underline {
+    width: 150px;
+    height: 3px;
+    background-color: #ffcc00; 
+    margin: 10px auto 0;
+}
+
+/* Map Section */
+.map-section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.footer-contact {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: red;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.contact-link:hover {
+    color: blue; 
+}
+
+.contact-link .icon {
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+.footer {
+    margin-top: 400px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
